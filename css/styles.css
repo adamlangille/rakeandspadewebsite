@@ -1,0 +1,62 @@
+
+/* Color Pallete - https://colorhunt.co/palette/f4fcd9c5d8a4bb9981534340 */
+
+/* Nav-Bar */
+.nav-link {
+  margin: 0 15px;
+  font-size: 1.5rem;
+
+}
+.navbar {
+  padding: 0 0 4.5rem 0;
+
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 7% 7%;
+  text-align: left;
+  background-color: #C5D8A4;
+}
+
+
+/* About Section */
+
+#about {
+  background-color: #534340;
+  color: white;
+  text-align: right;
+  padding: 5% 15%;
+}
+
+
+/* Contact Section */
+
+#contact .container-fluid {
+  background-color: #C5D8A4;
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.contact-links {
+  padding: 2% 15%;
+  color: black;
+  text-decoration: underline;
+}
+
+.contact-links:hover {
+  color: #534340;
+}
+
+.contact-list {
+  list-style-type: none;
+  text-align: left;
+}
+
+/* Footer */
+#footer .container-fluid {
+  background-color: #534340;
+  color:white;
+  padding: 3% 15% 3%;
+  text-align: center;
+}
