@@ -53,6 +53,21 @@
   text-align: left;
 }
 
+/* Gallery */
+
+#gallery {
+  background-color: #534340;
+  color: white;
+  text-align: center;
+  padding: 7%;
+}
+
+.carousel-item {
+  padding: 2% 12%;
+  width: 100;
+  height: auto;
+}
+
 /* Footer */
 #footer .container-fluid {
   background-color: #534340;
