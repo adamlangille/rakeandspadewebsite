@@ -2,50 +2,59 @@
 /* Color Pallete - https://colorhunt.co/palette/f4fcd9c5d8a4bb9981534340 */
 
 /* Nav-Bar */
+
+#navbar .container-fluid {
+  padding: 2% 3% 0;
+  text-align: left;
+  background-color: #10171E;
+}
+
 .nav-link {
   margin: 0 15px;
   font-size: 1.5rem;
 
 }
-.navbar {
+/* .navbar {
   padding: 0 0 4.5rem 0;
 
-}
+} */
 
 /* Title Section */
 #title .container-fluid {
   padding: 3% 7% 7%;
-  text-align: left;
-  background-color: #C5D8A4;
+  text-align: center;
+  size: 200%;
+  background-color: #f3aa4e;
 }
 
 
 /* About Section */
 
 #about {
-  background-color: #534340;
+  background-color: #10171E;
   color: white;
-  text-align: right;
-  padding: 5% 15%;
+  text-align: center;
+  padding: 5% 5%;
 }
 
 
 /* Contact Section */
 
 #contact .container-fluid {
-  background-color: #C5D8A4;
-  padding: 3% 15% 7%;
+  background-color: #f3aa4e;
+  padding: 3% 5% 7%;
   text-align: left;
 }
 
 .contact-links {
-  padding: 2% 15%;
+  padding: 8% 15%;
   color: black;
   text-decoration: underline;
+  line-height: 150%;
 }
 
 .contact-links:hover {
-  color: #534340;
+  color: #202c3c;
 }
 
 .contact-list {
@@ -56,10 +65,10 @@
 /* Gallery */
 
 #gallery {
-  background-color: #534340;
-  color: white;
+  background-color: #f3aa4e;
+  color: black;
   text-align: center;
-  padding: 7% 15%;
+  padding: 7% 5%;
 }
 
 .carousel-item {
@@ -75,8 +84,8 @@
 
 /* Footer */
 #footer .container-fluid {
-  background-color: #C5D8A4;
-  color: black;
+  background-color: #10171E;
+  color: white;
   padding: 3% 15% 2%;
   text-align: center;
 }
