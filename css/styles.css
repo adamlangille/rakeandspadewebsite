@@ -3,10 +3,17 @@
 
 /* Nav-Bar */
 
+#navbar {
+  padding: 0;
+  background-color: #10171E;
+  color: #f5bc76;
+}
+
 #navbar .container-fluid {
-  padding: 2% 3% 0;
+  padding: 0;
   text-align: left;
   background-color: #10171E;
+  color: #f5bc76;
 }
 
 .nav-link {
@@ -24,15 +31,19 @@
   padding: 3% 7% 7%;
   text-align: center;
   size: 200%;
-  background-color: #f3aa4e;
+  color: black;
+  background-color: #f5bc76;
 }
 
+.title-text {
+  padding: 7% 3%;
+}
 
 /* About Section */
 
 #about {
-  background-color: #10171E;
-  color: white;
+  background-color: #21405e;
+  color: #f5bc76;
   text-align: center;
   padding: 5% 5%;
 }
@@ -41,7 +52,7 @@
 /* Contact Section */
 
 #contact .container-fluid {
-  background-color: #f3aa4e;
+  background-color: #f5bc76;
   padding: 3% 5% 7%;
   text-align: left;
 }
@@ -65,7 +76,7 @@
 /* Gallery */
 
 #gallery {
-  background-color: #f3aa4e;
+  background-color: #f5bc76;
   color: black;
   text-align: center;
   padding: 7% 5%;
