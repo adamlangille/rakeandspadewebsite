@@ -2,81 +2,83 @@
 /* Color Pallete - https://colorhunt.co/palette/f4fcd9c5d8a4bb9981534340 */
 
 /* Nav-Bar */
+body {
+  background-color: #111820;
+}
+
+a:hover {
+  color:#f5bc76 !important;
+}
+
+/* Navbar */
 
 #navbar {
-  padding: 0;
-  background-color: #10171E;
-  color: #f5bc76;
+  padding: 0 2em 1em 2em;
+  background-color: #111820;
+  color: #e6a24b !important;
 }
 
 #navbar .container-fluid {
   padding: 0;
   text-align: left;
-  background-color: #10171E;
-  color: #f5bc76;
+  background-color: #111820;
+  color: #e6a24b !important;
 }
 
 .nav-link {
-  margin: 0 15px;
   font-size: 1.5rem;
-
+  color: #e6a24b !important;
 }
-/* .navbar {
-  padding: 0 0 4.5rem 0;
 
-} */
+.nav-item {
+  padding: 1.5em;
+}
 
 /* Title Section */
-#title .container-fluid {
-  padding: 3% 7% 7%;
+
+#title{
+  padding: 2em;
   text-align: center;
-  size: 200%;
-  color: black;
-  background-color: #f5bc76;
+  color: #e6a24b;
+  background-color: #111820;
 }
 
-.title-text {
-  padding: 7% 3%;
-}
-
-/* About Section */
-
-#about {
-  background-color: #21405e;
-  color: #f5bc76;
+#contact {
+  padding: 2em;
   text-align: center;
-  padding: 5% 5%;
-}
-
-
-/* Contact Section */
-
-#contact .container-fluid {
-  background-color: #f5bc76;
-  padding: 3% 5% 7%;
-  text-align: left;
 }
 
 .contact-links {
-  padding: 8% 15%;
-  color: black;
-  text-decoration: underline;
-  line-height: 150%;
-}
-
-.contact-links:hover {
-  color: #202c3c;
+  padding: 2em;
+  color: #e6a24b;
 }
 
 .contact-list {
+  font-size: x-large;
   list-style-type: none;
   text-align: left;
 }
 
+
+/* About Section */
+
+#about {
+  background-color: #111820;
+  color: #e6a24b;
+  text-align: center;
+  padding: 2em 2em;
+}
+
+.about-text {
+  padding: 1em;
+}
+
+
+
 /* Gallery */
 
 #gallery {
-  background-color: #f5bc76;
+  background-color: #e6a24b;
   color: black;
   text-align: center;
   padding: 7% 5%;
@@ -95,8 +97,8 @@
 
 /* Footer */
 #footer .container-fluid {
-  background-color: #10171E;
-  color: white;
-  padding: 3% 15% 2%;
+  background-color: #111820;
+  color: #e6a24b;
+  padding: 1.5em;
   text-align: center;
 }
