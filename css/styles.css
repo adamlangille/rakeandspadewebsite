@@ -4,6 +4,7 @@
 /* Nav-Bar */
 body {
   background-color: #111820;
+  font-family: 'Lato', sans-serif;
 }
 
 a:hover {
@@ -13,31 +14,33 @@ a:hover {
 /* Navbar */
 
 #navbar {
-  padding: 0 2em 0 0;
   background-color: #111820;
   color: #e6a24b !important;
 }
 
 #navbar .container-fluid {
-  padding: 0;
-  text-align: left;
+  text-align: right;
   background-color: #111820;
   color: #e6a24b !important;
 }
 
 .nav-link {
-  font-size: 1.7rem;
+  font-size: 1.4em;
   color: #e6a24b !important;
 }
 
 .nav-item {
-  padding: .5em 2em;
+  padding: .5em .1em;
+}
+
+.nav-logo {
+  padding: .5em;
 }
 
 /* Title Section */
 
 #title{
-  padding: 0;
+  padding: .1em;
   text-align: center;
   color: #e6a24b;
   background-color: #111820;
@@ -50,18 +53,23 @@ a:hover {
 .contact-links {
   padding: 2em .2em;
   color: #e6a24b;
+  max-width: 80%;
 }
 
 .contact-list {
-  font-size: x-large;
   list-style-type: none;
   text-align: center;
   padding: 2em .2em;
+  height: 100%;
 }
 
 .contact-content {
   display: inline-block;
   text-align: left;
+}
+
+.fa-solid {
+  padding: 1em;
 }
 
 /* About Section */
