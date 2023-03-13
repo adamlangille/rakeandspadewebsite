@@ -45,20 +45,24 @@ a:hover {
 
 #contact {
   padding: .2em;
-  text-align: center;
 }
 
 .contact-links {
-  padding: 2em;
+  padding: 2em .2em;
   color: #e6a24b;
 }
 
 .contact-list {
   font-size: x-large;
   list-style-type: none;
-  text-align: left;
+  text-align: center;
+  padding: 2em .2em;
 }
 
+.contact-content {
+  display: inline-block;
+  text-align: left;
+}
 
 /* About Section */
 
