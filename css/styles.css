@@ -11,6 +11,10 @@ a:hover {
   color:#f5bc76 !important;
 }
 
+h4 {
+  font-size: 1.1em;
+}
+
 /* Navbar */
 
 #navbar {
