@@ -77,8 +77,8 @@ h4 {
 }
 
 @media only screen and (max-width:1400px) {.home-logo {max-width:80%;}}
-@media only screen and (max-width:1200px) {.home-logo {max-width:90%;} .about-text {max-width: 40%;} .services-text {max-width: 40%;}}
-@media only screen and (max-width:768px) {.home-logo {max-width:100%; margin: 15%;} .nav-logo {text-align: center;}}
+@media only screen and (max-width:1200px) {.home-logo {max-width:90%;} .about-text {max-width: 80%;} .services-text {max-width: 80%;} .contact-text {max-width: 80%;}}
+@media only screen and (max-width:768px) {.home-logo {max-width:100%; margin: 15%;} .nav-logo {text-align: center;} .contact-text h3{font-size: medium;}}
 
 .contact-links {
   padding: 2em .2em;
@@ -118,11 +118,20 @@ h4 {
 }
 
 .about-text {
-  padding: 2em 5em 5em 5em;
-  max-width: 50%;
+  padding: .5em 1em 1em 1em;
+  max-width: 80%;
   font-size: large;
 }
 
+.about-text h3
+{
+  width: 100%;
+}
+
+.about-text p
+{
+  width: 100%;
+}
 
 /* Contact */
 
@@ -135,8 +144,8 @@ h4 {
 
 .contact-text
 {
-  padding: 5em;
-  max-width: 70%;
+  padding: 1em;
+  max-width: 80%;
 }
 
 /* Services */
@@ -150,22 +159,25 @@ h4 {
 
 .services-text
 {
-  padding: .1em 5em 5em 5em;
-  max-width: 50%;
+  padding: .2em 1em 1em 1em;
+  max-width: 80%;
   text-align: left;
 }
 
 dl
 {
   vertical-align: top;
+  max-width: 100%;
 }
 dt
 {
   font-size: x-large;
+  max-width: 100%;
 }
 dd
 {
   font-size: large;
+  max-width: 100%;
 }
 
 
