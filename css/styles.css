@@ -23,14 +23,26 @@ h4 {
 }
 
 #navbar .container-fluid {
-  text-align: right;
+  text-align: center;
   background-color: #111820;
   color: #e6a24b !important;
+  justify-content: center;
 }
 
 .nav-link {
-  font-size: 1.4em;
+  font-size: 1.5em;
   color: #e6a24b !important;
+}
+
+.nav-row
+{
+  width: 100%;
+  padding: .2em;
+}
+
+.active
+{
+  color: #ffdba879 !important;
 }
 
 .nav-item {
@@ -38,21 +50,35 @@ h4 {
 }
 
 .nav-logo {
-  padding: .5em;
+  max-height: 13em;
+  text-align: left;
+  padding: .1em;
+}
+
+.navbar-toggler
+{
+  text-align: center;
+  margin-top: .8em;
 }
 
 /* Title Section */
 
 #title{
-  padding: .1em;
+  padding: .2em;
   text-align: center;
   color: #e6a24b;
   background-color: #111820;
 }
 
-#contact {
-  padding: .2em;
+
+.home-logo {
+  vertical-align: middle;
+  max-width: 50%;
 }
+
+@media only screen and (max-width:1400px) {.home-logo {max-width:80%;}}
+@media only screen and (max-width:1200px) {.home-logo {max-width:90%;} .about-text {max-width: 40%;} .services-text {max-width: 40%;}}
+@media only screen and (max-width:768px) {.home-logo {max-width:100%; margin: 15%;} .nav-logo {text-align: center;}}
 
 .contact-links {
   padding: 2em .2em;
@@ -70,13 +96,19 @@ h4 {
 .contact-content {
   display: inline-block;
   text-align: left;
+  font-size: x-large;
+  height: 100%;
+}
+
+.tbody {
+  justify-self: center;
 }
 
 .fa-solid {
   padding: 1em;
 }
 
-/* About Section */
+/* About */
 
 #about {
   background-color: #111820;
@@ -86,9 +118,55 @@ h4 {
 }
 
 .about-text {
-  padding: 1em;
+  padding: 2em 5em 5em 5em;
+  max-width: 50%;
+  font-size: large;
 }
 
+
+/* Contact */
+
+#contact {
+  background-color: #111820;
+  color: #e6a24b;
+  text-align: center;
+  padding: 4em 2em;
+}
+
+.contact-text
+{
+  padding: 5em;
+  max-width: 70%;
+}
+
+/* Services */
+
+#services {
+  background-color: #111820;
+  color: #e6a24b;
+  text-align: center;
+  padding: 4em 2em;
+}
+
+.services-text
+{
+  padding: .1em 5em 5em 5em;
+  max-width: 50%;
+  text-align: left;
+}
+
+dl
+{
+  vertical-align: top;
+}
+dt
+{
+  font-size: x-large;
+}
+dd
+{
+  font-size: large;
+}
 
 
 /* Gallery */
@@ -112,7 +190,7 @@ h4 {
 }
 
 /* Footer */
-#footer .container-fluid {
+#footer {
   background-color: #111820;
   color: #e6a24b;
   padding: .1em;
