@@ -76,10 +76,6 @@ h4 {
   max-width: 50%;
 }
 
-@media only screen and (max-width:1400px) {.home-logo {max-width:80%;}}
-@media only screen and (max-width:1200px) {.home-logo {max-width:90%;} .about-text {max-width: 80%;} .services-text {max-width: 80%;} .contact-text {max-width: 80%;}}
-@media only screen and (max-width:1024px) {.services-text{padding: 2em 5em 5em 5em;}}
-@media only screen and (max-width:768px) {.home-logo {max-width:100%; margin: 15%;} .nav-logo {text-align: center;} .contact-text h3{font-size: medium;}}
 
 .contact-links {
   padding: 2em .2em;
@@ -209,3 +205,9 @@ dd
   padding: .1em;
   text-align: center;
 }
+
+
+@media only screen and (max-width:1400px) {.home-logo {max-width:80%;}}
+@media only screen and (max-width:1200px) {.home-logo {max-width:90%;} .about-text {max-width: 80%;} .services-text {max-width: 80%;} .contact-text {max-width: 80%;}}
+@media only screen and (max-width:768px) {.home-logo {max-width:100%; margin: 15%;} .nav-logo {text-align: center;} .contact-text h3{font-size: medium;}}
+
