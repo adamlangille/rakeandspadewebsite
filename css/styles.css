@@ -206,6 +206,7 @@ dd
   text-align: center;
   font-size: x-small;
 }
+.clear { clear: both; height: 60px; }
 
 
 @media only screen and (max-width:1400px) {.home-logo {max-width:80%;}}
