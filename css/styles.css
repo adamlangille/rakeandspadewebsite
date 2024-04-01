@@ -116,7 +116,7 @@ h4 {
 
 .about-text {
   padding: .5em 1em 1em 1em;
-  max-width: 80%;
+  max-width: 90%;
   font-size: medium;
 }
 
@@ -208,6 +208,6 @@ dd
 
 
 @media only screen and (max-width:1400px) {.home-logo {max-width:80%;}}
-@media only screen and (max-width:1200px) {.home-logo {max-width:90%;} .about-text {max-width: 80%;} .services-text {max-width: 80%;} .contact-text {max-width: 80%;}}
+@media only screen and (max-width:1200px) {.home-logo {max-width:90%;}}
 @media only screen and (max-width:768px) {.home-logo {max-width:100%; margin: 15%;} .nav-logo {text-align: center;} .contact-text h3{font-size: medium;}}
 
